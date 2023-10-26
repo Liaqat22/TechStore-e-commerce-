@@ -1,0 +1,1640 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rajdhani:wght@900&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rajdhani', sans-serif; */
+* {
+  margin: 0rem;
+  padding: 0rem;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.rows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row {
+  padding: 1rem 3.5rem;
+}
+
+.rowgernal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.containerfluid {
+  margin: 4rem 0rem;
+  overflow: hidden;
+
+}
+
+.borderradius {
+  border-radius: 3rem;
+}
+
+.border {
+  border: none;
+}
+
+.margin {
+  margin: 2rem 0rem;
+}
+
+.textleft {
+  text-align: left;
+}
+
+.active, .btn.active {
+  border-bottom: 0.3rem solid transparent;
+  border-image: linear-gradient(to right, #1a25bf, #4e55db, #f5a302, #ed6e02);
+  border-image-slice: 1;
+  color: #000000;
+  background-color: transparent;
+}
+
+
+.navlinkbtn {
+  color: white;
+}
+
+.buttonstyle:hover .navlinkbtn {
+  color: black;
+}
+
+/* ========================================== footer ======================================================== */
+
+.footerimg {
+  background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/button-red@2x.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 11rem 4rem;
+  border-radius: 3rem;
+
+
+}
+
+.footercontainer {
+  padding: 0rem 4rem;
+
+}
+
+.inputfield {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  width: 71.2rem;
+  border-style: solid;
+  border-width: 0.1rem;
+  border-color: #ffffffa6;
+  border-radius: 3.5rem;
+  padding: 2.5rem 1.7rem 2.5rem 4rem;
+  transition: all ease-out .3s;
+  background: transparent;
+}
+
+.inputfield::placeholder {
+  color: #ffffff;
+}
+
+.submit {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  /* letter-spacing: -.45rem; */
+  width: 15.8rem;
+  height: 5rem;
+  border-radius: 2.5rem;
+  color: #fd0249;
+  background-color: #fff;
+  transition: all ease-out .3s;
+  border: none;
+  position: absolute;
+  right: 32.8rem;
+  margin-top: 1.9rem;
+
+}
+
+.footerlinks {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #081420;
+}
+
+ul {
+  list-style: none;
+  /* padding: 1rem 0rem; */
+}
+
+li {
+  padding: 0.5rem 0rem;
+}
+
+.a {
+  text-decoration: none;
+  color: #707071;
+}
+
+.footitem {
+  margin: 2rem 0rem;
+}
+
+hr {
+  width: 95%;
+  border: 0.1rem solid;
+}
+
+/* =========================================== Home ===================================================== */
+
+.cols-of-row1 {
+  background-color: #080d13;
+  width: 32%;
+  margin: 4rem 0rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.cols-of-row1:hover {
+  box-shadow: 0rem 0.1rem 4rem black;
+  transition: 0.4s;
+}
+
+.text {
+  padding: 7rem 2rem 15.7rem 2rem;
+
+}
+
+.text1 {
+  padding: 0rem 2rem;
+
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.homecol1img {
+  align-self: flex-end; /* Align the image to the bottom */
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.aboutimg {
+  width: 100%;
+  height: auto;
+  border-radius: 3rem;
+
+}
+
+.aboutbtn {
+  background-color: #0C19B7;
+  color: white;
+  padding: 1.2rem 3.3rem;
+  border-radius: 3rem;
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin: 2rem 0rem;
+
+}
+
+.aboutpara {
+  margin: 2.5rem 0rem;
+}
+
+.col2img {
+  position: relative;
+  bottom: 14rem;
+  right: 1.7rem
+}
+
+.col2-of-row1 {
+  padding: 0rem 0rem 5rem;
+  background-image: linear-gradient(50deg, #FF5544 0%, #FD834D 100%);
+  transition: 0.4s;
+
+}
+
+.col2-of-row1:hover {
+  box-shadow: 0rem 0.1rem 4rem #fe6647;
+  transition: 0.4s;
+}
+
+.sct2shadowbox:hover {
+  box-shadow: 0rem 0.1rem 2.5rem #8f9195;
+  transition: 0.4s;
+}
+
+.sct2shadowboxhandfree:hover {
+  box-shadow: 0rem 0.1rem 2.5rem black;
+  transition: 0.4s;
+}
+
+.colmain {
+  margin-bottom: 2rem;
+  padding: 0rem 1.8rem;
+
+}
+
+.middlecol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rowmiddle {
+  padding: 6rem 2rem;
+  border-radius: 2rem;
+}
+
+.rowmiddleBshadow1:hover {
+  box-shadow: 0rem 0.1rem 2.5rem #dfdfdf;
+  transition: 0.4s;
+}
+
+.rowmiddleBshadow2:hover {
+  box-shadow: 0rem 0.1rem 2.5rem #cf374d;
+  transition: 0.4s;
+}
+
+.middletext {
+  font-size: 3rem;
+  font-size: 900;
+  color: #000000;
+}
+
+.middleimg {
+  position: relative;
+  top: 11.5rem;
+  right: 5rem;
+  width: 165%;
+}
+
+.middleimg2 {
+  position: relative;
+  top: 9.5rem;
+  right: 11rem;
+  width: 34rem;
+}
+
+.handfree {
+  position: relative;
+  right: 4rem;
+  /* top: 2rem; */
+}
+
+.laptopimg {
+  position: absolute;
+  width: -webkit-fill-available;
+  top: 295rem;
+}
+
+.laptopbtn {
+  background: transparent linear-gradient(105deg, #6B4690 0%, #C153A7 47%, #E85FB4 100%);
+}
+
+.handfreebtn {
+  background: transparent linear-gradient(105deg, #BB9449 0%, #E2CC9B 28%, #BA9B5D 45%, #B7995B 66%, #CCAC68 83%, #9E7C3E 100%);
+}
+
+.btnbg {
+  background-image: linear-gradient(103deg, #1F2220 0%, #000000 100%);
+}
+
+.sction3row {
+  background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-23.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 1;
+  padding: 7rem 0 5.5rem 14rem;
+  background-color: rgba(0, 0, 0, 0.9);
+
+}
+
+.sction3row:hover {
+  box-shadow: 0rem 0.1rem 0.8rem #ac2cf7;
+  transition: 0.4s;
+}
+
+.containerfluidsection3 {
+  margin: 6rem 0rem;
+  padding: 0rem 5rem;
+}
+
+.textsection4 {
+  padding: 7rem 3rem 0rem 3rem;
+
+}
+
+.section4btnmargin {
+  white-space: nowrap;
+}
+
+.sction4col,
+.section4col1 {
+  width: 49%;
+
+}
+
+.sction4col {
+  background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-15.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 60%;
+  padding-bottom: 6rem;
+
+}
+
+.sction4col:hover {
+  box-shadow: 0rem 0.1rem 2.5rem black;
+  transition: 0.4s;
+}
+
+.section4col1:hover {
+  box-shadow: 0rem 0.1rem 2.5rem rgb(12, 25, 183);
+  transition: 0.4s;
+}
+
+.section4col1 {
+  background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-16.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 60%;
+  padding-bottom: 6rem;
+
+}
+
+.vgame {
+  position: relative;
+  top: 17rem;
+}
+
+/* ========================================== new arrival products ========================================================== */
+.nextpreviouscol {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.arowicon {
+  border: 0.1rem solid #70798B;
+  padding: 1rem 1.2rem;
+  border-radius: 5rem;
+  color: #70798B;
+  cursor: pointer;
+}
+
+.arowicon:hover {
+  background-color: #2530c4;
+  color: white;
+  transition: 0.4s;
+}
+
+/* ================================================== for button =========================================================== */
+
+.buttonstyle {
+
+  width: fit-content;
+  padding: 1.8rem 4.7rem;
+  border-radius: 5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  /* letter-spacing: -.4.5rem; */
+  margin: 3rem 2rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.6s;
+
+}
+
+.buttonstyle:hover {
+  color: black;
+  background: white;
+  transition: 0.6s;
+
+}
+
+.buttoniphone {
+  background: linear-gradient(33deg, #75d1e0, #338699, #55a089)
+}
+
+.mackbook {
+  background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/button-red@2x.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ===================================== headings ============================================================= */
+
+.miniheading {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0.4rem 0rem 1rem;
+
+}
+
+.mdheading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.msheading {
+  font-size: 4rem;
+  color: #000000;
+  font-weight: revert;
+}
+
+.iconheading {
+  font-size: 4.5rem;
+  color: #000000;
+}
+
+.rescarticon {
+  display: none;
+}
+
+.navleftcontainer {
+  display: none;
+}
+
+.xlheading {
+  font-size: 6rem;
+  /* font-weight: 900; */
+  color: #ffffff;
+}
+
+.laptopheading {
+  font-size: 5.5rem;
+  font-weight: bolder;
+  color: white;
+}
+
+.navrow {
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-align: left;
+}
+
+.paratext {
+  font-size: 1.6rem;
+  color: #70798B;
+  font-weight: 600;
+}
+
+.headtext {
+  font-size: 2rem;
+  font-weight: 800;
+
+}
+
+.headtext1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+
+/* ======================================================= navbar ============================================================== */
+.navleft {
+  background-color: transparent;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #685c5c;
+  border: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navleft:hover {
+  background-color: transparent;
+  color: #685c5c;
+}
+
+.logo {
+  width: 13.8rem;
+  height: auto;
+}
+
+.headline {
+  padding: 3rem 1rem 1.7rem;
+  background-color: #080d13;
+  color: #ffffff;
+}
+
+.navbar {
+  padding: 0rem 3.5rem;
+  background-color: white;
+}
+
+.navcontainer {
+  padding: 4rem 0rem;
+}
+
+.navbar-nav {
+  margin-right: 25rem;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+.nav-item {
+  padding: 0rem 1.4rem;
+
+}
+
+/* ======================= =============================== card ========================================= */
+.cardscol {
+  margin: 2rem 0rem;
+}
+
+.cardmain {
+  border-radius: 2rem;
+}
+
+.cardmain:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent black overlay */
+}
+
+.cardbody {
+  padding: 6rem 2.5rem;
+  font-weight: 800;
+}
+
+.cardtitle {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.cardtext {
+  font-size: 2.2rem;
+  margin: 2rem 0rem;
+}
+
+.cardbtnmargin {
+  margin: 5rem 0rem;
+  border-top: 0.3rem solid #4F56DB;
+  border-radius: 0.3rem;
+}
+
+.cardmain:hover .cardbtnmargin {
+  border-top-color: #ffffff;
+}
+
+.btnprimary {
+  background: transparent;
+  color: #272424;
+  border: none;
+  font-weight: 600;
+}
+
+.btnprimary:hover,
+.cardmain:hover .btnprimary,
+.cardmain:hover .btnprimary:hover {
+  color: #ffffff;
+  background-color: transparent;
+  border-top: 0.3rem solid #ffffff;
+
+}
+
+.btnprimary:focus-visible {
+  background: transparent;
+  border: none;
+  color: black;
+}
+
+.text-center {
+  padding: 0rem 0rem 6rem 0rem;
+  font-size: 4.5rem;
+}
+
+/* ================================================= shops ============================================================= */
+.cardshop {
+  border: 0.1rem solid #70798B4D;
+  border-radius: 3rem;
+  padding: 3rem 2rem;
+  transition: all 300ms ease-in;
+  overflow: hidden;
+  height: 42.411rem auto;
+
+}
+
+.cardshop:hover {
+  box-shadow: 0rem 2.6rem 3.5rem rgba(112, 121, 139, 0.2);
+}
+
+.buton {
+  width: 100%;
+  background: transparent linear-gradient(99deg, #4F56DB 0%, #0C19B7 100%);
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 250ms ease-in;
+  position: relative;
+  top: 1rem;
+  padding: 1rem 4rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  
+}
+/* .Category{
+  padding: 0;
+} */
+
+
+.onsale {
+  position: absolute;
+  left: 3rem;
+  background-color: #FF0507;
+  text-transform: capitalize !important;
+  top: 2rem;
+  width: 6rem;
+  height: 6rem;
+  background: #ff0507;
+  border-radius: 50%;
+  font-weight: 600;
+  line-height: 6rem;
+  text-align: center;
+  color: white;
+}
+
+.watchlist {
+  position: absolute;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 2.5rem;
+  transition: all 300ms ease-in;
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-heart,
+.fa-eye {
+  padding: 1rem;
+  background-color: rgba(112, 121, 139, 0.1);
+  border-radius: 5rem;
+  text-align: center;
+  color: black;
+
+}
+
+.ddbtn {
+  padding: 2rem;
+  border-radius: 5rem;
+}
+
+.spandropdnbtn {
+  padding: 0rem 2rem;
+  font-size: 1.6rem;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu.show {
+  width: 48%;
+  font-size: 1.6rem;
+}
+
+.dropdown {
+  text-align: end;
+  padding: 1rem;
+}
+
+.shopcol3 {
+  padding: 3.4375rem 2.5rem;
+}
+
+.shoprow {
+  padding: 0rem 2rem;
+}
+
+.input,
+.search {
+  padding: 1.1rem 2rem;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 5rem;
+  border: none;
+  background: #F5F5F7
+}
+
+.search {
+  padding: 1.5rem 3rem;
+  margin: 1.2rem 0rem;
+
+}
+
+form {
+  /* padding:3rem 2.2rem; */
+  margin: 2rem 0rem;
+
+}
+
+/* ======================================== category =================================================== */
+.catagorimain {
+  margin-top: 2.0625em;
+  padding: 0px 1rem 0px 0px;
+
+}
+
+.cat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem;
+
+}
+
+.checkbox {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.range {
+  padding: 1.2rem;
+  width: 60%;
+
+}
+
+/* =================================================== form ====================================================== */
+.formcontact {
+  padding: 0px 0px 1.5rem 0px;
+}
+
+.contactrow {
+  padding: 2rem 0rem;
+}
+
+.form-control {
+  /* padding: 1.3rem; */
+  border: none;
+  border-radius: 3rem;
+  color: #000000;
+  font-size: 1.6rem;
+  background-color: #f5f5f7;
+  padding: 1.8rem 2.9rem 1.8rem 4rem;
+  margin-bottom: 1.875rem;
+}
+
+.contactbtnmain {
+  text-align: end;
+}
+
+.contactbtn {
+  background: transparent linear-gradient(99deg, #4F56DB 0%, #0C19B7 100%);
+  padding: 2rem 6rem;
+  border-radius: 5rem;
+  font-weight: 700;
+  transition: 0.9s;
+
+}
+
+.contactbtn:hover {
+  background: transparent linear-gradient(180deg, #000000 0%, #000000 100%);
+  color: #FFFFFF;
+  transition: 0.9s;
+
+}
+
+
+.form-control::placeholder {
+  color: #000000;
+}
+
+.map {
+  overflow: hidden;
+  border-radius: 50px;
+  box-shadow: -2rem 0rem 3.5rem rgb(112 121 139 / 28%);
+}
+
+.mapcol {
+  padding: 2rem 3rem;
+
+}
+
+.contactinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  margin: 1rem 0rem;
+}
+
+.deliveryinfo {
+  display: flex;
+  align-items: center;
+  padding: 0rem 1.5rem;
+  margin: 2rem 0rem;
+  
+}
+
+.contactdata {
+  padding: 0rem 2rem;
+}
+
+.phone,
+.envelope {
+  font-size: 3rem;
+  padding: 3rem;
+  margin: 0px 1rem;
+  background-color: rgba(112, 121, 139, 0.1);
+  border-radius: 5rem;
+  color: #2530c4;
+}
+
+.fa-location-dot {
+  font-size: 3rem;
+  padding: 3rem 3.5rem;
+  margin: 0px 1rem;
+  background-color: rgba(112, 121, 139, 0.1);
+  border-radius: 5rem;
+  color: #2530c4;
+}
+
+.fa-location-dot:hover,
+.phone:hover,
+.envelope:hover {
+
+  transition: 0.5s;
+  background-color: #2530c4;
+  color: #ffffff;
+}
+/* =========================================== login ==================================================== */
+.loginform{
+padding: 3rem ;
+border: 0.1rem solid #d7cece;
+    border-radius: 2.5rem;
+    font-size: 1.6rem;
+}
+
+
+/* =========================================single product detail =========================================== */
+.productDetailrow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.productdetailColumn{
+  padding: 3rem 0rem;
+}
+.productdetailSale{
+  text-align: right;
+}
+.productdetailonsale{
+    text-transform: capitalize !important;
+    padding: 2.5rem 2rem;
+    background: transparent linear-gradient(108deg, #4F56DB 0%,#0C19B7 100%);
+    border-radius: 50%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 6rem;
+    color: white;
+}
+.productdetailItem{
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+.priceoffmain{
+  display: flex;
+  align-items: center;
+}
+.productdetailOff{
+  font-size: 1.6rem; 
+   font-weight: bold;
+   color: #70798B !important;
+}
+.productdetailPrice{
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+.incrementDecrementCartmain{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 3rem 0rem;
+
+}
+.incrementDecrementmain{
+  background: #f5f5f7;
+  width: 38%;
+  padding: 1.5rem 2rem;
+  border-radius: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+.increment{
+  font-size: 2.8rem;
+  font-weight: bolder;
+}
+.cartbtn{
+  width: 100%;
+  background: transparent linear-gradient(108deg, #4F56DB 0%, #0C19B7 100%);
+  border-radius: 5rem;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  border: none;
+  cursor: pointer;
+  padding: 2rem 5rem
+}
+.btnStyle{
+  height:2rem;
+  width:2rem;
+  border: none;
+  border-radius: 5rem;
+  margin: 1rem;
+  font-weight: bolder;
+
+}
+.btnStyle:hover{
+opacity: 0.5;
+}
+.productbtn{
+  height:4rem;
+  width:4rem;
+  border: 0.1rem solid;
+  border-radius: 5rem;
+  margin: 1rem;
+  background-color: transparent;
+  font-size: 1.7rem;
+font-weight: bolder;
+}
+.productbtn.active{
+background-color: #000000;
+color: white;}
+.clearbtn{
+  font-size: 2rem;
+  border: none;
+  background: transparent;
+  color: blue;
+  margin-left: 4rem;
+}
+.wishlistShare{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sharebtn{
+  border: none;
+    padding: 1rem 2rem;
+    background: transparent;
+    border-radius: 5rem;
+    font-size: 2rem;
+}
+.sharing-icons{
+  background: #322e2e;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 5rem;
+  font-size: 2rem;
+  position: absolute;
+}
+.shareicons{
+  color: white;
+  padding: 0rem 0.5rem;
+}
+.shareicons:hover{
+ transform:translateY(-0.5rem);
+ transition: 0.3s;
+}
+.wishlistbtn{
+  padding:  2rem;
+  font-size: 2rem;
+  color: rgb(100 94 94);
+  border-radius: 5rem;
+  border: 0.1rem solid gray;
+  background-color: transparent;
+}
+.wishlistbtn:hover{
+ 
+  color: rgb(100 94 94);
+
+}
+.productimgMain{
+  transition: transform 0.3s ease;
+  max-width: 100%; 
+}
+.productimgMainouterdiv{
+  overflow: hidden;
+
+  border: 0.1rem solid #c4c4cb;
+  border-radius: 2rem;
+}
+
+.productimgMain:hover {
+  transform: scale(1.2); /* Increase the scale on hover */
+  cursor: zoom-in; /* Change cursor to indicate zoom-in */
+}
+.productimgs{
+  width: 10rem;
+  border: 0.1rem solid #c4c4cb;
+  border-radius: 2rem;
+  margin: 1rem 1rem 0 0rem;
+}
+td , tr{
+  text-align: center;
+}
+/* =================================== blogResponse ================================== */
+.responscard{
+  padding: 3rem;
+  border-radius: 2rem;
+  margin: 1rem 0rem;
+}
+.responseheart{
+  font-size: 2rem;
+  background-color: transparent;
+  cursor: pointer;
+}
+.blogimage{
+  width: -webkit-fill-available;
+  height: 60rem;
+  border-radius: 5rem;
+}
+.userAvatar{
+  width: 6rem;
+    height: auto;
+    border-radius: 5rem;
+}
+.tagsblogs{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  margin: 2rem 0rem;
+  border-top: 0.2rem solid #c4c4cb;
+  border-bottom: 0.2rem solid #c4c4cb;
+}
+ /* =========================================== Checkout ================================================ */
+.font16px{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.font20px{
+  font-size: 2rem;
+}
+.placeorderbox{
+  padding: 4rem 2rem;
+  text-align: center;
+    border: 0.1rem solid;
+    border-radius: 2rem;
+    margin: 1rem 0rem;
+}
+.BillingAndOrderDetail{
+  padding: 3rem;
+    border-radius: 3rem;
+}
+.cartpageAndCheckout{
+    border-radius: 2rem;
+    margin: 2rem 0rem;
+    padding: 3rem 0rem;
+}
+
+/* ========================================= Media Quries =========================================== */
+
+@media screen and (max-width:575px) {
+  html {
+    font-size: 48.5%;
+  }
+
+  .navleftcontainer {
+    display: none;
+  }
+
+  .navleftcontainermain {
+    display: none;
+  }
+
+  .rescarticon {
+    display: block;
+  }
+
+  .reswidth {
+    width: 50%;
+
+  }
+
+  .restextcenter {
+    text-align: center;
+  }
+
+  .restextcenterfooter {
+    text-align: center;
+  }
+
+  .cols-of-row1 {
+    width: 100%;
+  }
+
+  .submit {
+    /* position: relative; */
+    position: unset;
+
+  }
+
+  .inputfield {
+    width: 100%;
+  }
+
+  .shoprow {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dropdown {
+    text-align: center;
+  }
+
+  .mdheading,
+  .headtext,
+  .headtext1,
+  .contactbtnmain {
+    text-align: center;
+  }
+
+  .homecol1img,
+  .homecol3img {
+    position: unset;
+  }
+
+  .sction4col,
+  .section4col1 {
+    width: 100%;
+
+  }
+
+  .sction3row {
+    background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-23.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7rem 0 5.5rem 1rem;
+  }
+
+  .laptopimg {
+    position: unset;
+  }
+
+  .middleimg,
+  .middleimg2 {
+    position: unset;
+    width: 100%;
+  }
+
+  .handfree {
+    position: relative;
+    right: 4rem;
+    top: 0rem;
+
+  }
+  table {
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .incrementDecrementmain{
+    padding: 0.1rem;
+    border-radius: 1rem;
+
+  }
+}
+
+@media screen and (min-width:575px) and (max-width:767px) {
+  html {
+    font-size: 55.5%;
+  }
+
+  .navleftcontainermain {
+    display: none;
+  }
+
+  .navleftcontainer {
+    display: none;
+  }
+
+  .rescarticon {
+    display: block;
+  }
+
+  .reswidth {
+    width: 50%;
+
+  }
+
+  .restextcenter {
+    text-align: center;
+  }
+
+  .restextcenterfooter {
+    text-align: center;
+  }
+
+  .cols-of-row1 {
+    width: 100%;
+  }
+
+  .submit {
+    /* position: relative; */
+    position: unset;
+
+  }
+
+  .inputfield {
+    width: 100%;
+  }
+
+  .shoprow {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dropdown {
+    text-align: center;
+  }
+
+  .mdheading,
+  .headtext,
+  .headtext1,
+  .contactbtnmain {
+    text-align: center;
+  }
+
+  .homecol1img,
+  .homecol3img {
+    position: unset;
+  }
+
+  .sction4col,
+  .section4col1 {
+    width: 100%;
+
+  }
+
+  .sction3row {
+    background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-23.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7rem 0 5.5rem 1rem;
+  }
+
+  .laptopimg {
+    position: unset;
+  }
+
+  .middleimg,
+  .middleimg2 {
+    position: unset;
+    width: 100%;
+  }
+
+  .handfree {
+    position: relative;
+    right: 4rem;
+    top: 0rem;
+
+  }
+
+  .navbar-nav {
+    margin-right: 0rem;
+  }
+  table {
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .incrementDecrementmain{
+    padding: 0.1rem;
+    border-radius: 1rem;
+
+  }
+}
+
+@media screen and (min-width:765px) and (max-width:990px) {
+  html {
+    font-size: 60.5%;
+  }
+  table {
+    white-space: nowrap;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .cardscol,
+  .footitem {
+    width: 50%;
+  }
+
+  .footitem1 {
+    width: 100%;
+  }
+
+  .sec2reswidth {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    margin-right: 0rem;
+  }
+
+  .navleftcontainer {
+    display: block;
+  }
+
+  .rescarticon {
+    display: none;
+  }
+
+  .navleftcontainermain {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* .reswidth{
+    width: 50%;
+    
+  } */
+  /* .restextcenter{
+    text-align: center;
+  } */
+  .cols-of-row1 {
+    width: 100%;
+  }
+
+  .submit {
+    position: unset;
+
+  }
+
+  .inputfield {
+    width: 100%;
+  }
+
+  .shoprow {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dropdown {
+    text-align: center;
+  }
+
+  .mdheading,
+  .headtext,
+  .headtext1,
+  .contactbtnmain {
+    text-align: center;
+  }
+
+  .homecol1img,
+  .homecol3img {
+    position: unset;
+  }
+
+  .sction4col,
+  .section4col1 {
+    width: 100%;
+
+  }
+
+  .sction3row {
+    background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-23.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7rem 0 5.5rem 1rem;
+  }
+
+  .laptopimg {
+    position: unset;
+  }
+
+  .middleimg,
+  .middleimg2 {
+    position: unset;
+    width: 100%;
+  }
+
+  .handfree {
+    position: relative;
+    right: 4rem;
+    top: 0rem;
+
+  }
+}
+
+@media screen and (min-width:989px) and (max-width:1200px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .cardscol,
+  .footitem {
+    width: 50%;
+  }
+
+  .footitem1 {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    margin-right: 0rem;
+  }
+
+  .navleftcontainer {
+    display: none;
+  }
+
+  .rescarticon {
+    display: none;
+  }
+
+  .navleftcontainermain {
+    display: block;
+  }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* .reswidth{
+    width: 50%;
+    
+  } */
+  /* .restextcenter{
+    text-align: center;
+  } */
+  .cols-of-row1 {
+    width: 100%;
+  }
+
+  .submit {
+    /* position: relative; */
+    position: unset;
+
+  }
+
+  .inputfield {
+    width: 100%;
+  }
+
+  .shoprow {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dropdown {
+    text-align: center;
+  }
+
+  .mdheading,
+  .headtext,
+  .headtext1,
+  .contactbtnmain {
+    text-align: center;
+  }
+
+  .homecol1img,
+  .homecol3img {
+    position: unset;
+  }
+
+  .sction4col,
+  .section4col1 {
+    width: 100%;
+
+  }
+
+  .sction3row {
+    background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-23.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 7rem 0 5.5rem 1rem;
+  }
+
+  .laptopimg {
+    position: unset;
+  }
+
+  .middleimg,
+  .middleimg2 {
+    position: unset;
+    width: 100%;
+  }
+
+  .handfree {
+    position: relative;
+    right: 4rem;
+    top: 0rem;
+
+  }
+
+  .sec2reswidth {
+    width: 100%;
+  }
+}
+@media screen and (min-width:1200px) and (max-width:1600px) {
+  .sction3row{
+    background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-23.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    padding: 7rem 0 5.5rem 14rem;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .laptopimg{
+    position: unset;
+  }
+  .container-fluid,.widthres{
+    /* width: 1300px; */
+    margin: 0 auto
+  }
+  
+}
+@media screen and (min-width:1600px) and (max-width:2560px) {
+  .sction3row{
+    background-image: url(https://demo.phlox.pro/shop-digital-2/wp-content/uploads/sites/274/2021/04/Mask-Group-23.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    padding: 7rem 0 5.5rem 14rem;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+  .laptopimg{
+    position: unset;
+  }
+  .container-fluid , .widthres{
+    width: 1600px;
+    margin: 0 auto
+  }
+  .submit{
+    position: unset;
+  }
+}
