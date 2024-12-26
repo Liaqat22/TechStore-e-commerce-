@@ -16,10 +16,10 @@ function Head() {
             <p className='navrow restextcenter'><i className="fa-solid fa-inbox fa-lg " /> <span className='m-2'> World's Fastest Online Shopping Destination</span></p>
           </div>
           <div className='col-md-2 reswidth'>
-            <p className='navrow restextcenter'style={{whiteSpace:'nowrap'}}> <i className='fa-solid fa-phone' style={{ padding: '0rem 0.5rem' }} /><span className='m-2'>  088-888-8888</span> </p>
+            <p className='navrow restextcenter'style={{whiteSpace:'nowrap'}}> <i className='fa-solid fa-phone' style={{ padding: '0rem 0.5rem' }} /><span className='m-2'>  03211961948</span> </p>
           </div>
           <div className='col-md-2 reswidth'>
-            <p className='navrow restextcenter' style={{whiteSpace:'nowrap'}}> <i className='fa-solid fa-envelope' style={{ padding: '0rem 0.5rem' }} /> <span className='m-2'>info@phlox.pro </span></p>
+            <p className='navrow restextcenter' style={{whiteSpace:'nowrap'}}> <i className='fa-solid fa-envelope' style={{ padding: '0rem 0.5rem' }} /> <span className='m-2'>liaqatali097306@gmail.com </span></p>
           </div>
         </div>
       </div>
