@@ -45,7 +45,7 @@ function Footer() {
           <div className='col-md-2 footitem'  data-aos="fade-left" style={{ transitionDelay: '0.9s' }}>
             <h2 className='footerlinks'>Contact</h2>
             <ul>
-              <li className='navrow a'>+99 (0) 101 0000 888</li>
+              <li className='navrow a'>+92321961948</li>
               <li className='navrow a'>Info@yourdomain.com</li>
             </ul>
           </div>
@@ -62,7 +62,7 @@ function Footer() {
       <div className='container-fluid mt-3 mb-3'>
         <div className='row' style={{ display: 'flex', justifyContent: 'center',alignItems:'center' }}>
           <div className='col-md-10 ' style={{margin:'0.5rem 0rem'}}>
-            <p className='navrow restextcenterfooter' style={{ color: '#707071' }}>© 2023 By Averta. All rights reserved.</p>
+            <p className='navrow restextcenterfooter' style={{ color: '#707071' }}>© 2025 By Liaqat Ali. All rights reserved.</p>
           </div>
           <div className='col-md-2 ' style={{margin:'0.5rem 0rem'}}>
            <p  style={{display:'flex',justifyContent:'space-evenly',alignItems:'center'}}><i className="fa-brands fa-instagram fa-2xl"/>  <i className="fa-brands fa-linkedin-in fa-2xl"/> <i className="fa-brands fa-facebook-f fa-2xl"/> <i className="fa-brands fa-twitter fa-2xl"/></p>
