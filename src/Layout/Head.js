@@ -12,13 +12,13 @@ function Head() {
 
       <div className='container-fluid headline' data-aos="fade-down" style={{width:'auto'}}>
         <div className='row widthres' style={{display:'flex',justifyContent:'space-around',alignItems:'center'}}>
-          <div className='col-md-7'>
+          <div className='col-md-5'>
             <p className='navrow restextcenter'><i className="fa-solid fa-inbox fa-lg " /> <span className='m-2'> World's Fastest Online Shopping Destination</span></p>
           </div>
-          <div className='col-md-2 reswidth'>
+          <div className='col-md-3'>
             <p className='navrow restextcenter'style={{whiteSpace:'nowrap'}}> <i className='fa-solid fa-phone' style={{ padding: '0rem 0.5rem' }} /><span className='m-2'>  03211961948</span> </p>
           </div>
-          <div className='col-md-2 reswidth'>
+          <div className='col-md-3' style={{overflow:'hidden'}}>
             <p className='navrow restextcenter' style={{whiteSpace:'nowrap'}}> <i className='fa-solid fa-envelope' style={{ padding: '0rem 0.5rem' }} /> <span className='m-2'>liaqatali097306@gmail.com </span></p>
           </div>
         </div>
